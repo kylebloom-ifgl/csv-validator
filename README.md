@@ -104,7 +104,7 @@ RowValidationError[] errors = validator.Validate(inputStream);
 
 __Dealing with validation errors.__
 
-Errors are reported heirarchicly, by row and then columns.
+Errors are reported hierarchically, by row and then columns.
 
 ``` csharp
 foreach(RowValidationError current in errors) 
